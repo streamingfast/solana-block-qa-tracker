@@ -1,0 +1,18 @@
+# IDE files
+.idea/
+
+# Build artifacts
+/tracker
+
+# Go build cache
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go modules
+go.work
+go.work.sum
