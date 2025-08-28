@@ -19,11 +19,6 @@ The implementation:
 - **Dual Block Fetching**: Retrieves blocks using both Firehose and RPC Fetcher methods
 - **Block Comparison**: Compares sanitized checksums and writes JSON files when differences are found
 - **Slack Integration**: Sends notifications to Slack when block differences are detected
-- **Configurable Endpoints**: Supports custom Firehose and Solana RPC endpoints
-- **Graceful Shutdown**: Supports clean shutdown with Ctrl+C
-- **Authentication Support**: Supports both JWT tokens and API keys for Firehose access
-- **Error Handling**: Comprehensive error handling for network and API issues
-- **Reusable Connections**: Maintains persistent connections for better performance
 
 ## Configuration
 
